@@ -13,7 +13,6 @@ sec_to_min() {
 
 main() {
     read -p "Enter timer length (min): " time
-    if [[ ]]
     (( time *= 60 ))
     
     for ((i = 0; i <= time; i++)); do
