@@ -13,6 +13,7 @@ sec_to_min() {
 
 main() {
     read -p "Enter timer length (min): " time
+    if [[ ]]
     (( time *= 60 ))
     
     for ((i = 0; i <= time; i++)); do
@@ -20,7 +21,10 @@ main() {
         sleep 1 
     done
 
-    printf "\nTime's up!"
+    printf "\nTimer is complete!"
+    
+    # send noti
+    notify-send -a "jacobtimer" -i clock "Timer is complete!"
 
     # repeat 5 times as an "alarm"
     for i in {5..1}; do
