@@ -1,6 +1,6 @@
 # jacobtimer
 
-A simple timer shell script. Will look into notification daemon stuff later, but this is as barebones as possible right now.
+A simple timer shell script for Linux. 
 
 ## Usage 
 
