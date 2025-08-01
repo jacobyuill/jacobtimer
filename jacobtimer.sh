@@ -37,6 +37,7 @@ while true; do
   read -n 1 -s key
     case "$key" in 
       r|R)
+        printf "\n"
         #restarts automatically
         ;;
       q|Q)
